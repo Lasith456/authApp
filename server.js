@@ -30,7 +30,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin: 'http://localhost:10000', // Replace with frontend URL
+        origin: 'https://nextjs-wh67.onrender.com', // Replace with frontend URL
         credentials: true, // Allow cookies
     })
 );
