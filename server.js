@@ -34,6 +34,7 @@ app.use(
         credentials: true, // Allow cookies
     })
 );
+
 app.use('/uploads', express.static('uploads'));
 
 const upload = multer({ dest: 'uploads/' });
